@@ -1,0 +1,20 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "javascript testing using tdd",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "abc=test mocha 'src/**/*.test.js' --require @babel/register"
+  },
+  "author": "darpan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/cli": "7.8.4",
+    "@babel/register": "^7.9.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
